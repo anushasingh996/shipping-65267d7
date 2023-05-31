@@ -1,0 +1,8 @@
+site_name: "shipping"
+site_description: "This is a service to handle shipping."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

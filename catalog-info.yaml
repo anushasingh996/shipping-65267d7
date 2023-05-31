@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "shipping"
+  description: "This is a service to handle shipping."
+  links:
+    - url: https://shipping-demobackstage1.empcbr.thoughtworks-labs.net
+      title: shipping
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/shipping-65267d7
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  platform-dx/shipping-65267d7
+    sonarqube.org/project-key: "shipping"
+    backstage.io/kubernetes-label-selector: "app=shipping"
+    backstage.io/adr-location: docs/adrs/
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guest"
